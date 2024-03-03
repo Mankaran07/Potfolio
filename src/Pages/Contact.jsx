@@ -92,6 +92,7 @@ const Contact = () => {
                 required={true}
                 value={formData.email}
                 onChange={handleChange}
+                className="input"
               />
 
               <label htmlFor="message">Message</label>

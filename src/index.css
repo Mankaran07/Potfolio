@@ -710,6 +710,7 @@ label {
   padding: 5%;
 }
 input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   color: #31608c;
@@ -831,7 +832,7 @@ p {
   z-index: 2;
   position: fixed;
   left: 0;
-  width: 250px;
+  width: 270px;
   height: 100%;
   background-color: var(--secondary-background);
   border-right: 2px solid #dfdfdf;
